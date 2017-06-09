@@ -1,0 +1,141 @@
+<!doctype html>
+<html>
+	<head>
+		<link rel="stylesheet" type="text/css" href="css/test2.css">
+	</head>
+	
+	<body>
+		<header>
+			Learn Chinese!
+		</header>
+		
+		<table id="link_table">
+			<tr>
+				<td>
+					<a href="index.html">Study Guide 1: Animals</a>
+				</td>
+				<td>
+					<a href="test1.html">Test 1: Animals</a>
+				</td>
+				<td>
+					<a href="study_guide2.html">Study Guide 2: Colors</a>
+				</td>
+			</tr>
+		</table>
+		
+		<div id="level">
+			Level 2: Colors | 二级：颜色
+		</div>
+		
+		<div id="box">
+  		<input type="checkbox" id="checkbox" value="hint_checkbox">
+  		<label for="checkbox">Hints On?</label>
+		</div>
+
+		<section id="table">
+			<div id="top">
+				<div class="card">
+					<div class="answer_response"></div>
+					<p class="character"></p>
+					<input type="text" class="input" value="" placeholder="进入翻译">
+					<button class="checkbtn" onclick="doesItMatch()">对不对?</button>
+				</div>    
+
+				<div class="card">
+					<div class="answer_response"></div>
+					<p class="character"></p>
+					<input type="text" class="input" value="" placeholder="进入翻译">
+					<button class="checkbtn" onclick="doesItMatch(this)">对不对?</button>
+				</div>
+
+				<div class="card">
+					<div class="answer_response"></div>
+					<p class="character"></p>
+					<input type="text" class="input" value="" placeholder="进入翻译">
+					<button class="checkbtn" onclick="doesItMatch(this)">对不对?</button>
+				</div>
+			</div>
+
+			<div id="mid">
+				<div class="card">
+					<div class="answer_response"></div>
+					<p class="character"></p>
+					<input type="text" class="input" value="" placeholder="进入翻译">
+					<button class="checkbtn" onclick="doesItMatch(this)">对不对?</button>
+				</div>
+
+				<div class="card">
+					<div class="answer_response"></div>
+					<p class="character"></p>
+					<input type="text" class="input" value="" placeholder="进入翻译">
+					<button class="checkbtn" onclick="doesItMatch(this)">对不对?</button>
+				</div>
+
+				<div class="card">
+					<div class="answer_response"></div>
+					<p class="character"></p>
+					<input type="text" class="input" value="" placeholder="进入翻译">
+					<button class="checkbtn" onclick="doesItMatch(this)">对不对?</button>
+				</div>
+			</div>
+
+			<div id="btm">
+				<div class="card">
+					<div class="answer_response"></div>
+					<p class="character"></p>
+					<input type="text" class="input" value="" placeholder="进入翻译">
+					<button class="checkbtn" onclick="doesItMatch(this)">对不对?</button>
+				</div>
+
+				<div class="card">
+					<div class="answer_response"></div>
+					<p class="character"></p>
+					<input type="text" class="input" value="" placeholder="进入翻译">
+					<button class="checkbtn" onclick="doesItMatch(this)">对不对?</button>
+				</div>
+
+				<div class="card">
+					<div class="answer_response"></div>
+					<p class="character"></p>
+					<input type="text" class="input" value="" placeholder="进入翻译">
+					<button class="checkbtn" onclick="doesItMatch(this)">对不对?</button>
+				</div>
+			</div>
+		</section>
+
+		<div id="submission">
+			<button id="submitbtn">Submit Answers</button>
+		</div>
+
+		<div id="correct_submit">
+   		加油！<br>
+			<br>
+   		You've advanced to<br><a href="study_guide3.html">Level 3</a><br>
+			<br>
+   		恭喜恭喜！
+		</div>
+		
+		<div id="incorrect_submit">
+   		<br>考试你还没写完了!<br>
+			<br>
+   		Looks like you haven't translated <br>
+			all the characters yet...<br>
+			<br>
+			<input type="button" id="back_to_test" value="Go back to test">
+			<br>
+		</div>
+		
+		<script src="scripts/test2.js"></script>
+	</body>
+
+</html>
+
+
+<!-- Theme Colors: -->
+<!--
+	#436681  // light
+	#284c74  // medium-light
+	#232e67  // medium
+	#231d65  // medium-dark
+	#260f45  // dark
+-->

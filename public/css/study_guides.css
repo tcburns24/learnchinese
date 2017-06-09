@@ -1,0 +1,195 @@
+header {
+	text-align: center;
+	font-family: fantasy;
+	font-size: 44px;
+	background: linear-gradient(#e50202, #892525);
+	color: #feff6f;
+	padding-top: 10px;
+	width: 98%;
+	margin-left: 1%;
+}
+
+#link_table {
+	position: absolute;
+	background: linear-gradient(#892525, #e50202);
+	width: auto;
+	height: auto;
+	right: 1.8%;
+	border-radius: 7px;
+	padding-left: 5px;
+	padding-right: 5px;
+}
+
+#link_table a {
+	font-family: fantasy;
+	color: aliceblue;
+	margin-left: 7px;
+	margin-right: 7px;
+}
+
+#chapter {
+	text-align: center;
+	font-family: monospace;
+	font-size: 24px;
+	width: 98%;
+	height: 35px;
+	margin-left: 1%;
+	margin-top: 30px;
+	background: linear-gradient(#283f54, #13273e);
+	color: white;
+	border-style: solid;
+	border-color: #638d96;
+	border-radius: 48%;
+}
+
+section {
+	height: 60%;
+	width: 70%;
+	position: relative;
+	top: 20%;
+	left: 12%;
+	border-style: solid;
+	border-width: 8px;
+	border-color: black;
+	border-radius: 25px;
+	padding-top: 10px;
+	padding-right: 10px;
+	padding-bottom: 10px;
+	padding-left: 10px;
+}
+
+#next {
+	font-size: 24px;
+	font-family: fantasy;
+	text-align: center;
+	background-color: #80ce7b;
+	padding-top: 5px;
+	position: relative;
+	border-style: ridge;
+	border-color: #3e663b;
+	border-radius: 15px;
+	width: 30%;
+	left: 65%;
+	margin-bottom: 10px;
+	transition: all 0.5s ease-in-out;
+}
+
+#previous {
+	display: none;
+	font-size: 24px;
+	font-family: fantasy;
+	text-align: center;
+	background-color: brown;
+	padding-top: 5px;
+	position: relative;
+	border-style: ridge;
+	border-color: dodgerblue;
+	border-radius: 15px;
+	width: 30%;
+	right: 25%;
+	margin-bottom: 10px;
+	transition: all 0.5s ease-in-out;
+}
+
+#counter {
+	position: relative;
+	text-align: center;
+	height: 40px;
+	width: 85px;
+	left: 45%;
+	top: 15px;
+	font-size: 30px;
+	font-family: monospace;
+	margin-bottom: 18px;
+	border-style: solid;
+	border-radius: 20px;
+	transition: all 0.5s ease-in-out;
+}
+
+#chinese {
+	font-size: 36px;
+	font-family: monospace;
+	text-align: center;
+	background-color: white;
+	position: relative;
+	border-style: ridge;
+	border-color: dodgerblue;
+	border-radius: 15px;
+	height: 50px;
+	width: 50%;
+	left: 25%;
+	margin-bottom: 10px;
+	color: black;
+	transition: all 0.5s ease-in-out;
+}
+
+#english {
+	font-size: 26px;
+	font-family: monospace;
+	text-align: center;
+	background-color: white;
+	color: lightgrey; 
+	position: relative;
+	border-style: ridge;
+	border-color: dodgerblue;
+	border-radius: 15px;
+	padding-top: 8px;
+	height: 42px;
+	width: 50%;
+	left: 25%;
+	margin-bottom: 10px;
+	transition: all 0.5s ease-in-out;
+}
+
+#pic {
+	font-size: 26px;
+	font-family: monospace;
+	text-align: center;
+	background-color: white;
+	padding-top: 5px;
+	position: relative;
+	border-style: ridge;
+	border-color: dodgerblue;
+	border-radius: 15px;
+	height: 290px;
+	width: 50%;
+	left: 25%;
+	margin-bottom: 10px;
+	transition: all 0.5s ease-in-out;
+}
+
+#test {
+	font-size: 26px;
+	font-family: fantasy;
+	text-align: center;
+	background-color: #306fb2;
+	padding-top: 5px;
+	position: relative;
+	border-style: ridge;
+	border-color: dodgerblue;
+	border-radius: 15px;
+	width: 50%;
+	left: 25%;
+	top: 80%;
+	margin-bottom: 10px;
+}
+
+#test a {
+	color: aliceblue;
+}
+
+footer {
+	height: 60px;
+	width: 100%;
+	background: linear-gradient(#e50202, #892525);
+	position: relative;
+	margin-top: 25px;
+	
+}
+
+footer div {
+	color: white;
+	position: relative;
+	left: 80%;
+	top: 60%;
+}

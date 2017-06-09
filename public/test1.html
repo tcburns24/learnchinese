@@ -1,0 +1,126 @@
+<!doctype html>
+<html>
+	<head>
+		<link rel="stylesheet" type="text/css" href="css/test1.css">
+	</head>
+	
+	<body>
+		<header>
+			Learn Chinese!
+		</header>
+		
+		<table id="link_table">
+			<tr>
+				<td>
+					<a href="index.html">Study Guide 1: Animals</a>
+				</td>
+			</tr>
+		</table>
+		
+		<div id="level">
+			Level 1: Animals | 一级：动物
+		</div>
+		
+		<div id="box">
+  		<input type="checkbox" id="checkbox" value="hint_checkbox">
+  		<label for="checkbox">Hints On?</label>
+		</div>
+
+		<section id="table">
+  		<div id="top">
+				<div class="card">
+					<div class="answer_response"></div>
+					<p class="character"></p>
+					<input type="text" class="input" value="" placeholder="Enter Translation Here"> </br>
+					<button class="checkbtn" onclick="doesItMatch()">Correct?</button>
+				</div>    
+    
+    		<div class="card">
+					<div class="answer_response"></div>
+      		<p class="character"></p>
+      		<input type="text" class="input" value="" placeholder="Enter Translation Here">
+      		<button class="checkbtn" onclick="doesItMatch(this)">Correct?</button>
+    		</div>
+    
+    		<div class="card">
+					<div class="answer_response"></div>
+      		<p class="character"></p>
+      		<input type="text" class="input" value="" placeholder="Enter Translation Here">
+      		<button class="checkbtn" onclick="doesItMatch(this)">Correct?</button>
+    		</div>
+  		</div>
+
+  		<div id="mid">
+    		<div class="card">
+					<div class="answer_response"></div>
+      		<p class="character"></p>
+      		<input type="text" class="input" value="" placeholder="Enter Translation Here">
+      		<button class="checkbtn" onclick="doesItMatch(this)">Correct?</button>
+    		</div>
+    
+    		<div class="card">
+					<div class="answer_response"></div>
+      		<p class="character"></p>
+      		<input type="text" class="input" value="" placeholder="Enter Translation Here">
+      		<button class="checkbtn" onclick="doesItMatch(this)">Correct?</button>
+    		</div>
+    
+    		<div class="card">
+					<div class="answer_response"></div>
+      		<p class="character"></p>
+      		<input type="text" class="input" value="" placeholder="Enter Translation Here">
+      		<button class="checkbtn" onclick="doesItMatch(this)">Correct?</button>
+    		</div>
+  		</div>
+
+  		<div id="btm">
+    		<div class="card">
+					<div class="answer_response"></div>
+      		<p class="character"></p>
+      		<input type="text" class="input" value="" placeholder="Enter Translation Here">
+      		<button class="checkbtn" onclick="doesItMatch(this)">Correct?</button>
+    		</div>
+    
+    		<div class="card">
+					<div class="answer_response"></div>
+      		<p class="character"></p>
+      		<input type="text" class="input" value="" placeholder="Enter Translation Here">
+      		<button class="checkbtn" onclick="doesItMatch(this)">Correct?</button>
+    		</div>
+    
+    		<div class="card">
+					<div class="answer_response"></div>
+      		<p class="character"></p>
+      		<input type="text" class="input" value="" placeholder="Enter Translation Here">
+      		<button class="checkbtn" onclick="doesItMatch(this)">Correct?</button>
+    		</div>
+  		</div>
+		</section>
+
+		<div id="submission">
+  		<button id="submitbtn">Submit Answers</button>
+		</div>
+
+		<div id="correct_submit">
+   		加油!<br>
+			<br>
+   		You've advanced to<br>
+			<a href="study_guide2.html">Level 2</a>
+			<br>
+			<br>
+   		恭喜恭喜!<br>
+		</div>
+		
+		<div id="incorrect_submit">
+   		<br>考试你还没写完了!<br>
+			<br>
+			You haven't translated <br>
+			all the characters yet...<br>
+			<input type="button" id="back_to_test" value="Go back to test">
+			<br>
+		</div>
+	
+		<script src="scripts/test1.js"></script>
+	</body>
+	
+</html>
