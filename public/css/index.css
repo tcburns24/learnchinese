@@ -1,7 +1,7 @@
 header {
 	text-align: center;
-	font-family: fantasy;
 	font-size: 44px;
+	font-family: Noto Sans;
 	background: linear-gradient(#e50202, #892525);
 	color: #feff6f;
 	padding-top: 50px;
@@ -28,6 +28,7 @@ section {
 	margin: 35px;
 	margin-left: 35%;
 	font-size: 20px;
+	font-family: Noto Sans, sans-serif;
 	color: black;
 	animation: spin 15s ease infinite;
 	z-index: -1;
@@ -78,7 +79,7 @@ section {
 
 #start_link a {
 	color: dodgerblue;
-	font-family: fantasy;
+	font-family: Noto Sans;
 	font-size: 46px;
 }
 
