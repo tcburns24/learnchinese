@@ -103,6 +103,7 @@ english.addEventListener('mouseover', function() {
 	this.textContent = questions[count].english;
 	this.style.color = "black";
 });
+
 english.addEventListener('mouseout', function() {
 	this.textContent = "meaning";
 	this.style.color = "lightgrey";
@@ -111,6 +112,7 @@ english.addEventListener('mouseout', function() {
 pic.addEventListener('mouseover', function() {
 	this.src = questions[count].pic;
 });
+
 pic.addEventListener('mouseout', function() {
 	this.src = "css/Picture.png";
 });

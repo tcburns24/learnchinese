@@ -141,7 +141,7 @@ section {
 	transition: all 0.5s ease-in-out;
 }
 
-#pic {
+#pic_frame {
 	font-size: 26px;
 	font-family: Noto Sans;
 	text-align: center;
@@ -156,6 +156,14 @@ section {
 	left: 25%;
 	margin-bottom: 10px;
 	transition: all 0.5s ease-in-out;
+}
+
+#pic {
+	z-index: 1;
+	position: absolute;
+	height: 95%;
+	width: 95%;
+	left: 2%;
 }
 
 #test {
