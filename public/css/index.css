@@ -47,13 +47,13 @@ section {
 
 #p_two {
 	margin-top: 80px;
-	margin-left: 240px;
+	margin-left: 230px;
 	transform: rotate(90deg);
 }
 
 #p_three {
-	margin-top: -70px;
-	margin-right: 250px;
+	margin-top: -80px;
+	margin-right: 230px;
 	transform: rotate(270deg);
 }
 
