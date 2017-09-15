@@ -82,8 +82,8 @@ next.addEventListener('click', function() {
 	}, 100);
 	
 	setTimeout(function() {
-		pic.src = "css/Picture.png";
-	}, 100);
+		pic.src = "/css/Picture.png";
+	}, 10);
 });
 
 previous.addEventListener('click', function() {
@@ -110,6 +110,7 @@ english.addEventListener('mouseout', function() {
 });
 
 pic.addEventListener('mouseover', function() {
+	console.log(questions[count].pic);
 	this.src = questions[count].pic;
 });
 

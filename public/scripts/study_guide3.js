@@ -11,47 +11,47 @@ var questions = [
   {
     chinese: "网球",
     english: "tennis",
-    pic: "css/pics3/tennis.png"
+    pic: "/css/pics3/tennis.png"
   },
   {
     chinese: "棒球",
     english: "baseball",
-    pic: "css/pics3/baseball.png"
+    pic: "/css/pics3/baseball.png"
   },
   { 
     chinese: "游泳",
     english: "swimming",
-    pic: "css/pics3/swimming.png"
+    pic: "/css/pics3/swimming.png"
   },
   {
     chinese: "冰球",
     english: "hockey",
-    pic: "css/pics3/hockey.png"
+    pic: "/css/pics3/hockey.png"
   },
   {
     chinese: "篮球",
     english: "basketball",
-    pic: "css/pics3/basketball.png"
+    pic: "/css/pics3/basketball.png"
   },
   {
     chinese: "橄榄球",
     english: "football",
-    pic: "css/pics3/football.png"
+    pic: "/css/pics3/football.png"
   },
   {
     chinese: "足球",
     english: "soccer",
-    pic: "css/pics3/soccer.png"
+    pic: "/css/pics3/soccer.png"
   },
   { 
     chinese: "乒乓球",
     english: "ping pong",
-    pic: "css/pics3/pingpong.png"
+    pic: "/css/pics3/pingpong.png"
   },
   {
     chinese: "长曲棍球",
     english: "lacrosse",
-    pic: "css/pics3/lacrosse.png"
+    pic: "/css/pics3/lacrosse.png"
   }
 ];
 
@@ -91,8 +91,8 @@ next.addEventListener('click', function() {
 	}, 100);
 	
 	setTimeout(function() {
-		pic.src = "css/Picture.png";
-	}, 100);
+		pic.src = "/css/Picture.png";
+	}, 10);
 });
 
 previous.addEventListener('click', function() {
@@ -121,6 +121,6 @@ pic.addEventListener('mouseover', function() {
 	this.src = questions[count].pic;
 });
 pic.addEventListener('mouseout', function() {
-	this.src = "css/Picture.png";
+	this.src = "/css/Picture.png";
 });
 

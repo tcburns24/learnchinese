@@ -11,47 +11,47 @@ var questions = [
   {
     chinese: "红",
     english: "red",
-    pic: "css/pics2/red.png"
+    pic: "/css/pics2/red.png"
   },
   {
     chinese: "蓝",
     english: "blue",
-    pic: "css/pics2/blue.png"
+    pic: "/css/pics2/blue.png"
   },
   { 
     chinese: "黑",
     english: "black",
-    pic: "css/pics2/black.png"
+    pic: "/css/pics2/black.png"
   },
   {
     chinese: "紫",
     english: "purple",
-    pic: "css/pics2/purple.png"
+    pic: "/css/pics2/purple.png"
   },
   {
     chinese: "白",
     english: "white",
-    pic: "css/pics2/white.png"
+    pic: "/css/pics2/white.png"
   },
   {
     chinese: "黄",
     english: "yellow",
-    pic: "css/pics2/yellow.png"
+    pic: "/css/pics2/yellow.png"
   },
   {
     chinese: "咖啡",
     english: "brown",
-    pic: "css/pics2/brown.png"
+    pic: "/css/pics2/brown.png"
   },
   { 
     chinese: "灰",
     english: "grey",
-    pic: "css/pics2/grey.jpg"
+    pic: "/css/pics2/grey.jpg"
   },
   {
     chinese: "绿",
     english: "green",
-    pic: "css/pics2/green.png"
+    pic: "/css/pics2/green.png"
   }
 ];
 
@@ -91,8 +91,8 @@ next.addEventListener('click', function() {
 	}, 100);
 	
 	setTimeout(function() {
-		pic.src = "css/Picture.png";
-	}, 100);
+		pic.src = "/css/Picture.png";
+	}, 10);
 });
 
 previous.addEventListener('click', function() {
@@ -121,7 +121,7 @@ pic.addEventListener('mouseover', function() {
 	this.src = questions[count].pic;
 });
 pic.addEventListener('mouseout', function() {
-	this.src = "css/Picture.png";
+	this.src = "/css/Picture.png";
 });
 
 

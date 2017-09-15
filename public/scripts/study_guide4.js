@@ -11,47 +11,47 @@ var questions = [
   {
     chinese: "医生",
     english: "doctor",
-    pic: "css/pics4/doctor.png"
+    pic: "/css/pics4/doctor.png"
   },
   {
     chinese: "律师",
     english: "lawyer",
-    pic: "css/pics4/lawyer.png"
+    pic: "/css/pics4/lawyer.png"
   },
   { 
     chinese: "演员",
     english: "actor",
-    pic: "css/pics4/actor.png"
+    pic: "/css/pics4/actor.png"
   },
   {
     chinese: "警官",
     english: "police officer",
-    pic: "css/pics4/police_officer.png"
+    pic: "/css/pics4/police_officer.png"
   },
   {
     chinese: "老师",
     english: "teacher",
-    pic: "css/pics4/teacher.png"
+    pic: "/css/pics4/teacher.png"
   },
   {
     chinese: "校长",
     english: "principal",
-    pic: "css/pics4/principal.png"
+    pic: "/css/pics4/principal.png"
   },
   {
     chinese: "黑手党成员",
     english: "mobster",
-    pic: "css/pics4/mobster.png"
+    pic: "/css/pics4/mobster.png"
   },
   { 
     chinese: "酒保",
     english: "bartender",
-    pic: "css/pics4/bartender.png"
+    pic: "/css/pics4/bartender.png"
   },
   {
     chinese: "教师",
     english: "professor",
-    pic: "css/pics4/professor.png"
+    pic: "/css/pics4/professor.png"
   }
 ];
 
@@ -91,8 +91,8 @@ next.addEventListener('click', function() {
 	}, 100);
 	
 	setTimeout(function() {
-		pic.src = "css/Picture.png";
-	}, 100);
+		pic.src = "/css/Picture.png";
+	}, 10);
 });
 
 previous.addEventListener('click', function() {
@@ -121,6 +121,6 @@ pic.addEventListener('mouseover', function() {
 	this.src = questions[count].pic;
 });
 pic.addEventListener('mouseout', function() {
-	this.src = "css/Picture.png";
+	this.src = "/css/Picture.png";
 });
 

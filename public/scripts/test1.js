@@ -79,10 +79,10 @@ for (var x=0; x<questions.length; x++) {
     var questionId = this.dataset.question;
     if (inputs[questionId].value.toLowerCase() == questions[questionId].english.toLowerCase()) {
       this.parentElement.style.backgroundColor = "springgreen";
-			document.getElementsByClassName('answer_response')[questionId].style.content = "url(css/correct.png)";
+			document.getElementsByClassName('answer_response')[questionId].style.content = "url(/css/correct.png)";
     } else {
       this.parentElement.style.backgroundColor = "indianred";
-			document.getElementsByClassName('answer_response')[questionId].style.content = "url(css/incorrect.png)";
+			document.getElementsByClassName('answer_response')[questionId].style.content = "url(/css/incorrect.png)";
     }
   });
 }
