@@ -2,47 +2,47 @@ var questions = [
   {
     chinese: "猫",
     english: "cat",
-    pic: "css/pics1/cat.png"
+    pic: "/css/pics1/cat.png"
   },
   {
     chinese: "狗",
     english: "dog",
-    pic: "css/pics1/dog.png"
+    pic: "/css/pics1/dog.png"
   },
   {
     chinese: "兔子",
     english: "rabbit",
-    pic: "css/pics1/rabbit.png"
+    pic: "/css/pics1/rabbit.png"
   },
   {
     chinese: "狮子",
     english: "lion",
-    pic: "css/pics1/lion.png"
+    pic: "/css/pics1/lion.png"
   },
   {
     chinese: "蜘蛛",
     english: "spider",
-    pic: "css/pics1/spider.png"
+    pic: "/css/pics1/spider.png"
   },
   {
     chinese: "熊猫",
     english: "panda",
-    pic: "css/pics1/panda.png"
+    pic: "/css/pics1/panda.png"
   },
   {
     chinese: "鸟",
     english: "bird",
-    pic: "css/pics1/bird.png"
+    pic: "/css/pics1/bird.png"
   },
   {
     chinese: "羊",
     english: "ram",
-    pic: "css/pics1/ram.png"
+    pic: "/css/pics1/ram.png"
   },
   {
     chinese: "鸡",
     english: "chicken",
-    pic: "css/pics1/chicken.png"
+    pic: "/css/pics1/chicken.png"
   }
 ];
 
@@ -114,6 +114,6 @@ pic.addEventListener('mouseover', function() {
 });
 
 pic.addEventListener('mouseout', function() {
-	this.src = "css/Picture.png";
+	this.src = "/css/Picture.png";
 });
 

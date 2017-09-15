@@ -21,10 +21,10 @@ var topics = [
 		chinese: "事业",
 		english: "Careers"
 	}
-]
+];
 
 function thinBanner() {
-	if (document.body.scrollTop > 43)  {
+	if (document.body.scrollTop > 43) {
 		banner.style.height = "70px";
 		banner.style.paddingTop = "7px";
 		banner.style.fontSize = "24px";
@@ -81,7 +81,7 @@ function sportPop() {
 		sports.style.color = "darkgrey";
 		sports.style.fontSize = "30px";
 	}
-}
+};
 
 function careerPop() {
 	if (document.body.scrollTop > 620 &&
@@ -97,7 +97,7 @@ function careerPop() {
 		careers.style.color = "darkgrey";
 		careers.style.fontSize = "30px";
 	}
-}
+};
 
 window.onscroll = function() {
 	thinBanner();
@@ -105,6 +105,6 @@ window.onscroll = function() {
 	colorPop();
 	sportPop();
 	careerPop();
-}
+};
 
 
