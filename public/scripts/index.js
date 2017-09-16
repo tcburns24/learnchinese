@@ -36,14 +36,14 @@ function thinBanner() {
 }
 
 function animalPop() {
-	if (document.body.scrollTop > 290 &&
-			document.body.scrollTop < 400) {
+	if (document.body.scrollTop > 220 &&
+			document.body.scrollTop < 340) {
 		animals.style.marginLeft = "80px";
 		animals.style.marginBottom = "195px";
 		animals.style.color = "black";
 		animals.style.fontSize = "46px";
-	} else if (document.body.scrollTop > 400 ||
-						document.body.scrollTop < 290) {
+	} else if (document.body.scrollTop > 340 ||
+						document.body.scrollTop < 220) {
 		animals.style.marginLeft = "0px";
 		animals.style.marginBottom = "48px";
 		animals.style.color = "darkgrey";
@@ -52,14 +52,14 @@ function animalPop() {
 }
 
 function colorPop() {
-	if (document.body.scrollTop > 400 &&
-			document.body.scrollTop < 510) {
+	if (document.body.scrollTop > 341 &&
+			document.body.scrollTop < 460) {
 		colors.style.marginLeft = "80px";
 		colors.style.marginBottom = "195px";
 		colors.style.color = "black";
 		colors.style.fontSize = "46px";
-	} else if (document.body.scrollTop > 510 ||
-						document.body.scrollTop < 400) {
+	} else if (document.body.scrollTop > 460 ||
+						document.body.scrollTop < 341) {
 		colors.style.marginLeft = "0px";
 		colors.style.marginBottom = "48px";
 		colors.style.color = "darkgrey";
@@ -68,14 +68,14 @@ function colorPop() {
 }
 
 function sportPop() {
-	if (document.body.scrollTop > 510 &&
-			document.body.scrollTop < 620) {
+	if (document.body.scrollTop > 461 &&
+			document.body.scrollTop < 580) {
 		sports.style.marginLeft = "80px";
 		sports.style.marginBottom = "195px";
 		sports.style.color = "black";
 		sports.style.fontSize = "46px";
-	} else if (document.body.scrollTop > 620 ||
-						document.body.scrollTop < 510) {
+	} else if (document.body.scrollTop > 580 ||
+						document.body.scrollTop < 461) {
 		sports.style.marginLeft = "0px";
 		sports.style.marginBottom = "48px";
 		sports.style.color = "darkgrey";
@@ -84,13 +84,13 @@ function sportPop() {
 };
 
 function careerPop() {
-	if (document.body.scrollTop > 620 &&
-			document.body.scrollTop < 730) {
+	if (document.body.scrollTop > 580 &&
+			document.body.scrollTop < 680) {
 		careers.style.marginLeft = "80px";
 		careers.style.marginBottom = "195px";
 		careers.style.color = "black";
 		careers.style.fontSize = "46px";
-	} else if (document.body.scrollTop > 730 ||
+	} else if (document.body.scrollTop > 690 ||
 						document.body.scrollTop < 620) {
 		careers.style.marginLeft = "0px";
 		careers.style.marginBottom = "48px";

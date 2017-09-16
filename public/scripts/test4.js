@@ -78,7 +78,7 @@ for (var x=0; x<questions.length; x++) {
   buttons[x].addEventListener('click', function() {
     var questionId = this.dataset.question;
     if (inputs[questionId].value.toLowerCase() == questions[questionId].english.toLowerCase()) {
-      this.parentElement.style.backgroundColor = "#15e9ed";
+      this.parentElement.style.backgroundColor = "aqua";
 			document.getElementsByClassName('answer_response')[questionId].style.content = "url(/css/correct.png)";
     } else {
       this.parentElement.style.backgroundColor = "indianred";
@@ -89,28 +89,28 @@ for (var x=0; x<questions.length; x++) {
 
 submitbtn.addEventListener('click', function() {
   if (
-    (cards[0].style.backgroundColor == "#15e9ed") &&
-    (cards[1].style.backgroundColor == "#15e9ed") &&
-    (cards[2].style.backgroundColor == "#15e9ed") &&
-    (cards[3].style.backgroundColor == "#15e9ed") &&
-    (cards[4].style.backgroundColor == "#15e9ed") &&
-    (cards[5].style.backgroundColor == "#15e9ed") &&
-    (cards[6].style.backgroundColor == "#15e9ed") &&
-    (cards[7].style.backgroundColor == "#15e9ed") &&
-    (cards[8].style.backgroundColor == "#15e9ed") 
+    (cards[0].style.backgroundColor == "aqua") &&
+    (cards[1].style.backgroundColor == "aqua") &&
+    (cards[2].style.backgroundColor == "aqua") &&
+    (cards[3].style.backgroundColor == "aqua") &&
+    (cards[4].style.backgroundColor == "aqua") &&
+    (cards[5].style.backgroundColor == "aqua") &&
+    (cards[6].style.backgroundColor == "aqua") &&
+    (cards[7].style.backgroundColor == "aqua") &&
+    (cards[8].style.backgroundColor == "aqua") 
   ) {
     document.getElementById('correct_submit').style.display = "inline";
 		document.getElementById('table').style.opacity = "0.3";
   } else if (
-		(cards[0].style.backgroundColor != "#15e9ed") ||
-    (cards[1].style.backgroundColor != "#15e9ed") ||
-    (cards[2].style.backgroundColor != "#15e9ed") ||
-    (cards[3].style.backgroundColor != "#15e9ed") ||
-    (cards[4].style.backgroundColor != "#15e9ed") ||
-    (cards[5].style.backgroundColor != "#15e9ed") ||
-    (cards[6].style.backgroundColor != "#15e9ed") ||
-    (cards[7].style.backgroundColor != "#15e9ed") ||
-    (cards[8].style.backgroundColor != "#15e9ed") 
+		(cards[0].style.backgroundColor != "aqua") ||
+    (cards[1].style.backgroundColor != "aqua") ||
+    (cards[2].style.backgroundColor != "aqua") ||
+    (cards[3].style.backgroundColor != "aqua") ||
+    (cards[4].style.backgroundColor != "aqua") ||
+    (cards[5].style.backgroundColor != "aqua") ||
+    (cards[6].style.backgroundColor != "aqua") ||
+    (cards[7].style.backgroundColor != "aqua") ||
+    (cards[8].style.backgroundColor != "aqua") 
 	) {
 		document.getElementById('incorrect_submit').style.display = "inline";
 		document.getElementById('table').style.opacity = "0.3";

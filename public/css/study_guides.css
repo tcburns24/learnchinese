@@ -186,6 +186,14 @@ section {
 	color: aliceblue;
 }
 
+a:hover {
+	color: bisque;
+	font-weight: bold;
+	border-style: solid;
+	border-color: bisque;
+	border-width: 2px;
+}
+
 footer {
 	height: 60px;
 	width: 100%;

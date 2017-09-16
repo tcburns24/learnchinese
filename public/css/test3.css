@@ -27,6 +27,14 @@ header {
 	margin-right: 7px;
 }
 
+a:hover {
+	color: bisque;
+	font-weight: bold;
+	border-style: solid;
+	border-color: bisque;
+	border-width: 2px;
+}
+
 #level {
 	text-align: center;
 	font-family: Noto Sans;
