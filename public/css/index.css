@@ -22,6 +22,7 @@ section {
 }
 
 .wheel {
+	position: relative;
 	height: 300px;
 	width: 300px;
 	border-radius: 50%;
@@ -33,11 +34,14 @@ section {
 	font-family: Noto Sans, sans-serif;
 	color: black;
 	animation: spin 15s ease infinite;
-	z-index: -1;
+/*	z-index: -1;*/
 }
 
 .wheelicon {
-	position: relative;
+	position: absolute;
+	height: 25%;
+	width: 25%;
+	text-align: center;
 }
 
 @keyframes spin {
@@ -45,21 +49,29 @@ section {
   100% { transform: rotate(360deg); }
 }
 
+#p_one {
+	margin-top: 5%;
+	left: 37.5%;
+}
+
 #p_two {
-	margin-top: 80px;
-	margin-left: 230px;
+	margin-left: -5%;
+	top: 30%;
+	left: 75%;
 	transform: rotate(90deg);
 }
 
 #p_three {
-	margin-top: -80px;
-	margin-right: 230px;
-	transform: rotate(270deg);
+	margin-top: -5%;
+	top: 75%;
+	left: 37.5%;
+	transform: rotate(180deg);
 }
 
 #p_four {
-	margin-top: 46px;
-	transform: rotate(180deg)
+	margin-left: 5%;
+	top: 30%;
+	transform: rotate(270deg)
 }
 
 #spacer {
